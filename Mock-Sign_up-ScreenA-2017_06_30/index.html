@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Screen A</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Fontawesome -->
+  <script src="https://use.fontawesome.com/165f521340.js"></script>
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+
+  <!-- Custom JS -->
+  <script src="./script.js"></script>
+</head>
+  <body>
+    <div class="content-wrapper">
+
+      <!-- Header Menu -->
+      <div class="menu">
+        <div class="menu-side-button">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          Back
+        </div>
+        <div>Create your account</div>
+        <div class="menu-side-button">Help</div>
+      </div>
+
+      <!-- Header info text -->
+      <div class="info-text">
+        <div class="small">Verification code sent via SMS to +1-205-512-7234.</div>
+        <div class="link-text small">Didn't receive code? Tap to resend.</div>
+      </div>
+
+      <!-- Signup form -->
+      <form class="signup-form">
+        <div class="form-group">
+          <div class="small label">Enter 4-digit verification code</div>
+          <input class="form-input" type="text" id="pin" placeholder="Enter 4-digit verification code" />
+        </div>
+        <div class="form-group">
+          <div class="small label">Your name</div>
+          <input class="form-input" type="text" id="name" placeholder="Your name" />
+        </div>
+        <div class="form-group">
+          <div class="small label">Email Address</div>
+          <input class="form-input" type="text" id="email" placeholder="Email Address" />
+        </div>
+        <div class="form-group">
+          <div class="small label">Create a password</div>
+          <input class="form-input" type="password" id="password" placeholder="Create a password" />
+        </div>
+        <div class="form-group">
+          <div class="small label">Birthday</div>
+          <input class="form-input" type="text" id="birthday" placeholder="Birthday" />
+        </div>
+        <div class="info-text small">Add your birthday so we can reward you on your day!</div>
+        <button type="submit" id="submit" class="btn btn-primary" disabled>Sign Up &amp; Accept</button>
+      </form>
+
+      <!-- Footer -->
+      <div class="footer-text">
+        <div class="small">By tapping Sign Up agree to&nbsp;</div>
+        <div class="link-text small">Terms &amp; Conditions</div>
+      </div>
+
+    </div>
+  </body>
+</html>
