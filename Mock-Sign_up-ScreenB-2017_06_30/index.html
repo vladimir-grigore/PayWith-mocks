@@ -16,6 +16,9 @@
   <!-- Responsive image maps plugin -->
   <script src="./jquery.rwdImageMaps.min.js"></script>
 
+  <!-- Animate CSS plugin -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
   <!-- Custom stylesheet -->
   <link rel="stylesheet" type="text/css" href="./styles.css">
 
@@ -25,7 +28,7 @@
 <body>
   <div id="image_map">
     <map name="click_map">
-      <area href="" shape="circle" coords="376,84,25" alt="menu" />
+      <area id="menu-button" shape="circle" coords="376,84,25" alt="menu" />
       <area href="https://www.google.com/gift-cards" alt="Gift_Cards" target="_blank" shape="rect" coords="1,608,743,866"/>
       <area href="https://www.google.com/reservation" alt="Reservation" target="_blank" shape="rect" coords="1,874,743,1102"/>
       <area href="https://www.google.com/hotels" alt="Hotels" target="_blank" shape="rect" coords="1,1110,743,1331"/>
@@ -33,19 +36,39 @@
     <img id="background" usemap="#click_map" src="./Mock-Sign_up-ScreenB-2017_06_30_a.jpg" alt="image">
   </div>
 
-  <div class="image-blur"></div>
+  <div class="image-blur hidden"></div>
 
-  <div id="menu">
-    <div class="menu-item"><i class="fa fa-home" aria-hidden="true"></i>Home</div>
-    <div class="menu-item"><i class="fa fa-gift" aria-hidden="true"></i>Gifts</div>
-    <div class="menu-item"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>Account Manager</div>
-    <div class="menu-item"><i class="fa fa-calendar" aria-hidden="true"></i>Reservations</div>
-    <div class="menu-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Hotels</div>
-    <div class="menu-item"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Profile</div>
-    <div class="menu-item"><i class="fa fa-history" aria-hidden="true"></i>History</div>
-    <div class="menu-item"><i class="fa fa-life-ring" aria-hidden="true"></i>Support</div>
-    <div class="menu-item"><i class="fa fa-info-circle" aria-hidden="true"></i>How It Works</div>
-    <div class="menu-item"><i class="fa fa-sign-out" aria-hidden="true"></i>Sign Out</div>
+  <div id="menu" class="hidden">
+      <div class="menu-item">
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <span>Home</span>
+      </div>
+      <div class="menu-item"><i class="fa fa-gift" aria-hidden="true"></i>
+        <span>Gifts</span>
+      </div>
+      <div class="menu-item"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+        <span>Account Manager</span>
+      </div>
+      <div class="menu-item"><i class="fa fa-calendar" aria-hidden="true"></i>
+        <span>Reservations</span>
+      </div>
+      <div class="menu-item"><i class="fa fa-map-marker" aria-hidden="true"></i>  <span>Hotels</span>
+      </div>
+      <div class="menu-item"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        <span>Profile</span>
+      </div>
+      <div class="menu-item"><i class="fa fa-history" aria-hidden="true"></i>
+        <span>History</span>
+      </div>
+      <div class="menu-item"><i class="fa fa-life-ring" aria-hidden="true"></i>
+        <span>Support</span>
+      </div>
+      <div class="menu-item"><i class="fa fa-info-circle" aria-hidden="true"></i>
+        <span>How It Works</span>
+      </div>
+      <div class="menu-item"><i class="fa fa-sign-out" aria-hidden="true"></i>
+        <span>Sign Out</span>
+      </div>
   </div>
 </body>
 </html>
