@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Screen B</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <!-- Responsive image maps plugin -->
+  <script src="./jquery.rwdImageMaps.min.js"></script>
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+
+  <!-- Custom JS -->
+  <script src="./script.js"></script>
+</head>
+<body>
+  <div id="image_map">
+    <map name="click_map">
+      <area href="/" shape="circle" coords="376,84,25" alt="menu" />
+      <area href="https://www.google.com/gift-cards" alt="Gift_Cards" target="_blank" shape="rect" coords="1,608,743,866"/>
+      <area href="https://www.google.com/reservation" alt="Reservation" target="_blank" shape="rect" coords="1,874,743,1102"/>
+      <area href="https://www.google.com/hotels" alt="Hotels" target="_blank" shape="rect" coords="1,1110,743,1331"/>
+    </map>
+    <img id="background" usemap="#click_map" src="./Mock-Sign_up-ScreenB-2017_06_30_a.jpg" alt="image">
+  </div>
+</body>
+</html>
