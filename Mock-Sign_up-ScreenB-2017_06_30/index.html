@@ -10,6 +10,9 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 
+  <!-- Fontawesome -->
+  <script src="https://use.fontawesome.com/165f521340.js"></script>
+
   <!-- Responsive image maps plugin -->
   <script src="./jquery.rwdImageMaps.min.js"></script>
 
@@ -22,12 +25,27 @@
 <body>
   <div id="image_map">
     <map name="click_map">
-      <area href="/" shape="circle" coords="376,84,25" alt="menu" />
+      <area href="" shape="circle" coords="376,84,25" alt="menu" />
       <area href="https://www.google.com/gift-cards" alt="Gift_Cards" target="_blank" shape="rect" coords="1,608,743,866"/>
       <area href="https://www.google.com/reservation" alt="Reservation" target="_blank" shape="rect" coords="1,874,743,1102"/>
       <area href="https://www.google.com/hotels" alt="Hotels" target="_blank" shape="rect" coords="1,1110,743,1331"/>
     </map>
     <img id="background" usemap="#click_map" src="./Mock-Sign_up-ScreenB-2017_06_30_a.jpg" alt="image">
+  </div>
+
+  <div class="image-blur"></div>
+
+  <div id="menu">
+    <div class="menu-item"><i class="fa fa-home" aria-hidden="true"></i>Home</div>
+    <div class="menu-item"><i class="fa fa-gift" aria-hidden="true"></i>Gifts</div>
+    <div class="menu-item"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>Account Manager</div>
+    <div class="menu-item"><i class="fa fa-calendar" aria-hidden="true"></i>Reservations</div>
+    <div class="menu-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Hotels</div>
+    <div class="menu-item"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Profile</div>
+    <div class="menu-item"><i class="fa fa-history" aria-hidden="true"></i>History</div>
+    <div class="menu-item"><i class="fa fa-life-ring" aria-hidden="true"></i>Support</div>
+    <div class="menu-item"><i class="fa fa-info-circle" aria-hidden="true"></i>How It Works</div>
+    <div class="menu-item"><i class="fa fa-sign-out" aria-hidden="true"></i>Sign Out</div>
   </div>
 </body>
 </html>
