@@ -1,5 +1,9 @@
 body {
   margin: 0;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.08em;
 }
 
 #background {
@@ -43,8 +47,6 @@ body {
 .menu-item {
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-  font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
   height: 14vw;
 }
 

@@ -1,7 +1,7 @@
 .content-wrapper {
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
   justify-content: space-between;
   margin: auto;
 }
@@ -14,7 +14,8 @@
   color: white;
   display: flex;
   flex-direction: row;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  font-weight: bold;
   justify-content: space-between;
   padding: 2em 0.5em 1em;
 }
@@ -29,6 +30,11 @@
 
 .menu-side-button {
   font-size: 0.8em;
+}
+
+.menu-side-button i {
+  font-size: 1.5em;
+  vertical-align: middle;
 }
 
 /***** FORM *****/
@@ -49,7 +55,8 @@
 
 .small {
   color: #717171;
-  font-size: 0.7em;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 .link-text {
@@ -69,6 +76,7 @@
 .form-input {
   border: none;
   border-bottom: 1px solid #adadad;
+  font-size: 1.2em;
   font-weight: 600;
   padding: 0.4em;
   height: 2.5em;
@@ -80,12 +88,20 @@
   font-weight: 100;
 }
 
+/***** SUBMIT BUTTON *****/
+
 #submit {
   background: #0079ff;
   border-radius: 10px;
   font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
   margin-top: 1em;
   padding: 0.7em;
+}
+
+.btn[disabled]{
+  opacity: 0.3;
 }
 
 /***** FOOTER *****/
