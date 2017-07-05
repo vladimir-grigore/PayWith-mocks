@@ -14,10 +14,9 @@
   color: white;
   display: flex;
   flex-direction: row;
-  font-size: 1.5em;
   font-weight: bold;
   justify-content: space-between;
-  padding: 2em 0.5em 1em;
+  padding: 2em 0.5em 0.2em 0.5em;
 }
 
 .info-text {
@@ -25,16 +24,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1em 0 2em 0;
+  padding: 1em 0 1em 0;
 }
 
-.menu-side-button {
-  font-size: 0.8em;
-}
-
-.menu-side-button i {
+.menu-title {
   font-size: 1.5em;
-  vertical-align: middle;
+  padding-right: 1em;
+}
+
+.side-button {
+  font-size: 1.2em;
+}
+
+.side-button img {
+  height: 2.5em;
+  padding-bottom: 0.2em;
 }
 
 /***** FORM *****/
@@ -79,7 +83,7 @@
   font-size: 1.2em;
   font-weight: 600;
   padding: 0.4em;
-  height: 2.5em;
+  height: 2em;
   outline: none;
 }
 
@@ -96,7 +100,6 @@
   font-size: 1.5em;
   font-weight: bold;
   letter-spacing: 0.1em;
-  margin-top: 1em;
   padding: 0.7em;
 }
 
@@ -110,5 +113,5 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 1em 0 3em 0;
+  padding: 1em 0 1em 0;
 }

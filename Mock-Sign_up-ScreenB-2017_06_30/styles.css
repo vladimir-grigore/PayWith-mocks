@@ -19,11 +19,9 @@ body {
   background: url(Mock-Sign_up-ScreenB-2017_06_30_a.jpg) center center no-repeat;
   background-size: cover;
   background-position: center -17vw;
-  bottom: 0;
   filter: blur(5px);
-  left: 0;
+  height: 100%;
   position: absolute;
-  right: 0;
   top: 18.5vw;
   width: 100%;
   -webkit-animation-duration: 0.5s;
